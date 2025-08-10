@@ -15,7 +15,7 @@ var h = '</span>';
 currentNumber = Math.floor(currentNumber);
 
 function romanNumber(num) {
-	if (num > 3999999 || num < 0) {
+	if (num > 3999999999 || num < 0) {
 		return "";
 	} else {
 	return g+thousands[Math.floor(num/1000000)%10]+h +
@@ -35,4 +35,5 @@ function outputNumber() {
 setInterval(outputNumber, 50);
 </script>
 </body>
+
 </html>
